@@ -1,0 +1,12 @@
+<suite name="NotesLauncherTestSuite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="NotesLauncherTests">
+        <classes>
+            <class name="tests.NotesLauncherTest"/>
+        </classes>
+    </test>
+</suite>
