@@ -14,9 +14,15 @@ public class NotesHomePage extends BasePage {
     }
 
     public void initializeAppSetup() {
+    	// Step 1: Launch the application and tap on “Get Started”
         click(getStartedButton);
+
+        // Step 2: Select Notes Launcher from the settings screen
+        
         waitForElementToBeClickable(defaultHomeRadioButton);
         click(defaultHomeRadioButton);
+        // Step 3: Tap anywhere on the animation & verify it opens screen -1
+
         waitForElementToBeClickable(animationArrow);
         click(animationArrow);
     }

@@ -37,8 +37,9 @@ public class NotesLauncherTests extends BaseTest {
 		toDoPage = new ToDoListsPage(driver);
 	}
 
-	  @Test(description = "Verify TC1: Create Note Test", priority = 1)
+	  @Test(description = "Verify TC1 Onboarding and TC2: Creating a text note", priority = 1)
 		public void createTextNotesTest() {
+		  
 			test = extent.createTest("Verify TC1: Onboarding and TC 2: Creating a text note");
 			notesHomePage.initializeAppSetup();
 			createNotePage.createNote("This is First Note1", "Verify testing notes launcher application mobile app working");
@@ -47,7 +48,7 @@ public class NotesLauncherTests extends BaseTest {
 	
 		}
 
-	  @Test(description = "TC 3:Create To-Do List Test ", priority = 2)
+	  @Test(description = "Verify TC 3:Create To-Do List Test ", priority = 2)
 	public void createTodoListTest() {
 		test = extent.createTest("TC 3: Creating a To-Do List ", "Validates creating a to-do list in the app");
 

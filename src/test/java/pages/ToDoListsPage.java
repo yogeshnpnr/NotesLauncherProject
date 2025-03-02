@@ -36,11 +36,15 @@ public class ToDoListsPage extends BasePage {
 
     public void createToDoList(String title,String taskone, String tasktwo,String taskthree) throws InterruptedException {
        
+    	
+    	// step1 :Tap on + icon
     	click(plusButton);
+    	
+    	// step2: Tap on create a To-Do list
         click(toDoOption);
+        //  step3: Create a list: Add tasks
         enterText(toDoTitle, title);
-        
-        
+           
        // click(firstTask);
         enterText(addTaskButtonone, taskone);
         
@@ -54,32 +58,30 @@ public class ToDoListsPage extends BasePage {
 
         click(ThirdTask);
         Thread.sleep(2000);
+        
 
         enterText(addTaskButtonthree, taskthree);
             
         Thread.sleep(2000);
 
 
-        
+        // step4:change background color
+
         WebElement colorChange = waitForElement(By.id("com.notes.todolist.notebook.checklist.notepad.android.dev:id/btn_color_change"));
 
-        // Wait for 10 seconds before clicking
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(colorChange));
 
         colorChange.click();
-        //test.log(Status.INFO, "Clicked on Color Change button after 10 seconds");
-
-         // Click the green color option
         WebElement greenColor = waitForElement(By.xpath("(//android.widget.ImageView[@resource-id='com.notes.todolist.notebook.checklist.notepad.android.dev:id/color_item'])[4]"));
         greenColor.click();
-        //test.log(Status.INFO, "Changed To-Do List Color");
 
-        // Explicit wait after color selection (if needed)
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(By.id("com.notes.todolist.notebook.checklist.notepad.android.dev:id/btn_save")));
 
         Thread.sleep(2000);
-        click(saveButton);
+        
+        // step5:Save the note
+         click(saveButton);
     }
 
 	
