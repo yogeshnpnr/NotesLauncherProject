@@ -1,7 +1,8 @@
 # Notes Launcher Automation - Setup and Execution Guide
 
+
 ## 1. Project Overview
-This project automates the testing of the Notes Launcher mobile application using **Appium 2.0, TestNG, and Extent Reports**.
+This is  automation framework project of notes launcher application using  page object model desgin pattern and testng unit test framework  the testing of the Notes Launcher mobile application using **Appium 2.0, TestNG, and Extent Reports**.
 
 ## 2. Prerequisites
 Ensure the following are installed and configured:
