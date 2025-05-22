@@ -26,6 +26,7 @@ public class BaseTest {
         driver = new AndroidDriver(url, capabilities);
     }
 
+    
     @AfterClass
     public void tearDown() {
         if (driver != null) {
