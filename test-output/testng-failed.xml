@@ -10,7 +10,6 @@
           <include name="tearDown"/>
           <include name="setUpPages"/>
           <include name="createTextNotesTest"/>
-          <include name="createTodoListTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.NotesLauncherTests -->

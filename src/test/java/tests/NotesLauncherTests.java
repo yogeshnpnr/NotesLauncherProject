@@ -48,21 +48,21 @@ public class NotesLauncherTests extends BaseTest {
 	
 		}
 
-	  @Test(description = "Verify TC 3:Create To-Do List Test ", priority = 2)
-	public void createTodoListTest() {
-		test = extent.createTest("TC 3: Creating a To-Do List ", "Validates creating a to-do list in the app");
-
-		try {
-			toDoPage.createToDoList("This is my to-do list", "Task 1", "Task 2", "Task 3");
-
-			Assert.assertTrue(true, "To-Do List successfully created!");
-			test.pass("To-Do List successfully created!");
-
-		} catch (Exception e) {
-			test.log(Status.FAIL, "Test failed: " + e.getMessage());
-			Assert.fail(e.getMessage());
-		}
-	}
+		
+		  @Test(description = "Verify TC 3:Create To-Do List Test ", priority = 2)
+		  public void createTodoListTest() { test =
+		  extent.createTest("TC 3: Creating a To-Do List ",
+		  "Validates creating a to-do list in the app");
+		  
+		  try { toDoPage.createToDoList("This is my to-do list", "Task 1", "Task 2",
+		  "Task 3");
+		  
+		  Assert.assertTrue(true, "To-Do List successfully created!");
+		  test.pass("To-Do List successfully created!");
+		  
+		  } catch (Exception e) { test.log(Status.FAIL, "Test failed: " +
+		  e.getMessage()); Assert.fail(e.getMessage()); } }
+		 
 
 	@AfterMethod
 	public void tearDown() {
