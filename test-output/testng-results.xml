@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-02T16:33:00 IST" name="Default suite" finished-at="2025-03-02T16:34:25 IST" duration-ms="85152">
+  <suite started-at="2025-05-22T20:35:39 IST" name="Default suite" finished-at="2025-05-22T20:36:31 IST" duration-ms="52622">
     <groups>
     </groups>
-    <test started-at="2025-03-02T16:33:00 IST" name="Default test" finished-at="2025-03-02T16:34:25 IST" duration-ms="85152">
+    <test started-at="2025-05-22T20:35:39 IST" name="Default test" finished-at="2025-05-22T20:36:31 IST" duration-ms="52622">
       <class name="tests.NotesLauncherTests">
-        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:32:59 IST" name="setUpExtentReports" finished-at="2025-03-02T16:33:00 IST" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:tests.NotesLauncherTests@3c9c0d96]" started-at="2025-05-22T20:35:38 IST" name="setUpExtentReports" finished-at="2025-05-22T20:35:39 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReports -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:33:00 IST" name="setup" finished-at="2025-03-02T16:33:44 IST" duration-ms="44380" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NotesLauncherTests@3c9c0d96]" started-at="2025-05-22T20:35:39 IST" name="setup" finished-at="2025-05-22T20:36:12 IST" duration-ms="33795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:33:44 IST" name="setUpPages" finished-at="2025-03-02T16:33:44 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.NotesLauncherTests@3c9c0d96]" started-at="2025-05-22T20:36:12 IST" name="setUpPages" finished-at="2025-05-22T20:36:12 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPages -->
-        <test-method signature="createTextNotesTest()[pri:1, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:33:44 IST" name="createTextNotesTest" description="Verify TC1 Onboarding and TC2: Creating a text note" finished-at="2025-03-02T16:34:02 IST" duration-ms="17344" status="PASS">
+        <test-method signature="createTextNotesTest()[pri:1, instance:tests.NotesLauncherTests@3c9c0d96]" started-at="2025-05-22T20:36:13 IST" name="createTextNotesTest" description="Verify TC1 Onboarding and TC2: Creating a text note" finished-at="2025-05-22T20:36:31 IST" duration-ms="18483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTextNotesTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:34:02 IST" name="tearDown" finished-at="2025-03-02T16:34:02 IST" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NotesLauncherTests@3c9c0d96]" started-at="2025-05-22T20:36:31 IST" name="tearDown" finished-at="2025-05-22T20:36:31 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:34:02 IST" name="setUpPages" finished-at="2025-03-02T16:34:02 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPages -->
-        <test-method signature="createTodoListTest()[pri:2, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:34:02 IST" name="createTodoListTest" description="Verify TC 3:Create To-Do List Test " finished-at="2025-03-02T16:34:25 IST" duration-ms="22737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTodoListTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:34:25 IST" name="tearDown" finished-at="2025-03-02T16:34:25 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:tests.NotesLauncherTests@3a4621bd]" started-at="2025-03-02T16:34:25 IST" name="tearDownExtentReports" finished-at="2025-03-02T16:34:26 IST" duration-ms="973" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:tests.NotesLauncherTests@3c9c0d96]" started-at="2025-05-22T20:36:31 IST" name="tearDownExtentReports" finished-at="2025-05-22T20:36:32 IST" duration-ms="531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
